@@ -1,0 +1,132 @@
+
+/* Header  */
+.contact-header {
+    background-image: url(../img/back-header.png), url(../img/contactback2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 590px;
+  }
+  
+  .header-content {
+    color: #fff;
+  }
+  
+  .header-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+  
+  .header-content p {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  
+  .header-content button {
+    width: fit-content;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .header-content h1 {
+      font-size: 44px;
+      font-weight: 600;
+    }
+  
+    .header-content p {
+      font-size: 18px;
+      font-weight: 400 !important;
+    }
+    .overlay {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+  /* Header  */
+
+  .bg-steper{
+    background-color: #FEEFE6;
+    width: 40px;
+    height: 40px;
+    color: #648D87;
+  }
+  
+  .team-father{
+    padding: 0;
+  }
+  
+  .team-father img{
+    height: 500px;
+  }
+  
+  .team-card{
+    bottom: 0px;
+    background: linear-gradient(#ce5c60b8,#ff85678a) !important;
+    row-gap: 15px;
+    padding: 10px 15px ;
+    border-radius: 18px !important;
+  }
+  
+  .bg-loc{
+    bottom: 0px;
+    background: #02a08b8a !important;
+    row-gap: 15px;
+    padding: 10px 15px ;
+    border-radius: 18px !important;
+  }
+  
+  .team-info{
+    gap: 20px;
+  }
+  
+  .team-info p{
+  margin-bottom: 0px !important;
+  font-size: 0.8rem;
+  color: white;
+  }
+  /* Team  */
+
+
+
+  /* Get In  */
+
+  .get-img .map{
+    width: 70%;
+    height: 500px;
+  }
+
+  .get-img .go{
+    top: -20px;
+    height: 550px;
+    width: 70%;
+    right: 0px;
+    z-index: -999;
+  }
+
+  .end{
+    font-weight: 300;
+  }
+
+ .send input,textarea,select{
+    font-weight: 300 !important;
+    font-size: 0.8rem !important;
+  }
+
+  .send button{
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .get-img{
+        display: flex;
+        justify-content: center;
+    }
+    .get-img .go{
+display: none !important;
+    }
+
+    .get-img .map{
+        width: 90%;
+        height: 500px;
+      }
+  }
+  /* Get In  */

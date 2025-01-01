@@ -1,0 +1,90 @@
+
+/* Header  */
+.single-page{
+    row-gap: 20px;
+}
+
+.small-img{
+    row-gap: 5px;
+}
+
+.details h3,.infoo{
+    font-weight: 600;
+}
+
+.details p:nth-last-child(1){
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.details button{
+    font-size: 0.8rem;
+}
+
+.azrar{
+    row-gap: 10px;
+}
+
+.chat{
+    font-size: 1.2rem;
+}
+
+.chat a{
+    color: #fff;
+}
+
+.chat h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.chat p{
+    font-weight: 300;
+    margin-bottom: 0px !important;
+}
+
+.telegram {
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%);
+    color: #fff;
+}
+.whatsapp {
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, #20B038 0%, #60D66A 100%);
+    color: #fff;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background:linear-gradient(45deg, #FFD522 0%, #F1000B 49.74%, #B900B3 100%);
+    color: #fff;
+}
+
+@media only screen and (max-width: 1124px){
+    .details button{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .details button{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .menu{
+        display: none !important;
+    }
+}
+
+/* Header  */
